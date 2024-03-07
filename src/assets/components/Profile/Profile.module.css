@@ -1,0 +1,68 @@
+.container {
+  text-align: center;
+  margin: 20px auto;
+  width: 420px;
+  border: 3px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.mainCard {
+  width: 100%;
+}
+
+.friendPhoto {
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 50%;
+  background-color: rgb(43, 42, 42);
+}
+
+.friendName {
+  margin-top: 20px;
+  font-size: 38px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+
+.friendTag {
+  margin-top: 10px;
+  font-size: 22px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: gray;
+}
+
+.friendLocation {
+  margin-top: 10px;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: gray;
+}
+
+.statsList {
+  display: flex;
+  margin-top: 10px;
+}
+
+.statsItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 3px solid gray;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  background-color: rgb(200, 196, 196);
+}
+.statsItem:not(:last-child) {
+  border-right: 3px solid gray;
+}
+
+.statsItem span:last-child {
+  font-weight: bold;
+}
