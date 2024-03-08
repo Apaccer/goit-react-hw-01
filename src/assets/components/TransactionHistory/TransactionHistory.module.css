@@ -1,0 +1,33 @@
+.container {
+  padding: 20px;
+  margin-top: 20px;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table th,
+.table td {
+  border: 1.5px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.table th {
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #f9f9f9;
+  background-color: #1f1f1f;
+}
+.table td {
+  font-size: 18px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+.table tr:nth-child(even) {
+  background-color: #a5a4a4;
+}
+.type {
+  text-transform: capitalize;
+}
